@@ -10,6 +10,7 @@
     "url": "https://github.com/umami-software/umami.git"
   },
   "scripts": {
+    "log-db-url": "echo $DATABASE_URL",
     "dev": "next dev",
     "dev-turbo": "next dev -p 3001 --turbopack",
     "build": "npm-run-all check-env build-db check-db build-tracker build-geo build-app",
